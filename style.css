@@ -1,1 +1,89 @@
+body{
 
+font-family: Arial;
+margin:0;
+background:#f5f7fb;
+
+}
+
+nav{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px;
+
+background:#111;
+color:white;
+
+}
+
+nav ul{
+
+display:flex;
+gap:20px;
+list-style:none;
+
+}
+
+nav a{
+
+color:white;
+text-decoration:none;
+
+}
+
+header{
+
+text-align:center;
+padding:80px;
+
+background:#2563eb;
+color:white;
+
+}
+
+section{
+
+padding:60px;
+
+}
+
+.skills span{
+
+background:#e5e7eb;
+padding:10px 15px;
+margin:5px;
+display:inline-block;
+border-radius:6px;
+
+}
+
+.project{
+
+background:white;
+
+padding:25px;
+
+margin:20px 0;
+
+border-radius:10px;
+
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+
+}
+
+.button{
+
+background:#2563eb;
+
+color:white;
+
+padding:12px 25px;
+
+text-decoration:none;
+
+border-radius:6px;
+
+}
